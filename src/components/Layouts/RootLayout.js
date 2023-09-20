@@ -1,6 +1,6 @@
 import React from "react";
-import Navbar from "./onetime/Navbar";
-import Footer from "./onetime/Footer";
+import Navbar from "../onetime/Navbar";
+import Footer from "../onetime/Footer";
 
 const RootLayout = ({ children }) => {
   return (

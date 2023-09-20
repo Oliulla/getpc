@@ -1,4 +1,4 @@
-import RootLayout from "@/components/RootLayout";
+import RootLayout from "@/components/Layouts/RootLayout";
 import React from "react";
 
 const HomePage = () => {
