@@ -43,7 +43,7 @@ const Navbar = () => {
           <div
             className={`${
               isCategoriesOpen ? "block" : "hidden"
-            } w-[300px] absolute left-0 pt-6 space-y-2 bg-[#081621] text-white border border-gray-300 rounded-lg py-2 z-10`}
+            } w-[300px] absolute left-0 space-y-2 bg-[#081621] text-white border border-gray-300 rounded-lg z-10`}
             onMouseOver={() => setCategoriesOpen(true)}
             onMouseOut={() => setCategoriesOpen(false)}
           >
