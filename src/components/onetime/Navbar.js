@@ -13,7 +13,7 @@ const Navbar = () => {
       <div className="container mx-auto flex justify-between items-center">
         <Link href="/">
           <span className="text-white text-xl font-bold cursor-pointer">
-            My Website
+            GetPC
           </span>
         </Link>
 
