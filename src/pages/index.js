@@ -3,12 +3,14 @@ import Head from "next/head";
 import React from "react";
 
 const HomePage = () => {
-  return <>
-    <Head>
-      <title>GetPC | Home</title>
-    </Head>
-    <div>This is home page</div>
-  </>;
+  return (
+    <>
+      <Head>
+        <title>GetPC | Home</title>
+      </Head>
+      <section>This is home page</section>
+    </>
+  )
 };
 
 export default HomePage;
