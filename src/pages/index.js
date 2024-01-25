@@ -1,4 +1,5 @@
 import RootLayout from "@/components/Layouts/RootLayout";
+import HomeComponent from "@/components/__onetime_used/__home/__Home_Component";
 import Head from "next/head";
 import React from "react";
 
@@ -8,7 +9,9 @@ const HomePage = () => {
       <Head>
         <title>GetPC | Home</title>
       </Head>
-      <section>This is home page</section>
+      <section>
+        <HomeComponent />
+      </section>
     </>
   )
 };
