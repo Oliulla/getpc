@@ -7,12 +7,12 @@ const HomeComponent = () => {
         <div>
             <div className='flex flex-col gap-y-10'>
                 <div>
-                    <h1>Featured Categories</h1>
-                    <FeaturedCategoryCard />
-                </div>
-                <div>
                     <h1>Featured Products</h1>
                     <FeaturedProductCard />
+                </div>
+                <div>
+                    <h1>Featured Categories</h1>
+                    <FeaturedCategoryCard />
                 </div>
             </div>
         </div>
