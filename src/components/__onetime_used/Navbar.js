@@ -4,9 +4,9 @@ import { useState } from "react";
 const Navbar = () => {
   const [isCategoriesOpen, setCategoriesOpen] = useState(false);
 
-//   const toggleCategories = () => {
-//     setCategoriesOpen(!isCategoriesOpen);
-//   };
+  //   const toggleCategories = () => {
+  //     setCategoriesOpen(!isCategoriesOpen);
+  //   };
 
   return (
     <nav className="bg-[#081621] p-6">
@@ -26,9 +26,8 @@ const Navbar = () => {
             <span>Categories</span>
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className={`h-4 w-4 transform transition-transform ${
-                isCategoriesOpen ? "rotate-180" : ""
-              }`}
+              className={`h-4 w-4 transform transition-transform ${isCategoriesOpen ? "rotate-180" : ""
+                }`}
               viewBox="0 0 20 20"
               fill="currentColor"
               aria-hidden="true"
@@ -41,9 +40,8 @@ const Navbar = () => {
             </svg>
           </button>
           <div
-            className={`${
-              isCategoriesOpen ? "block" : "hidden"
-            } w-[300px] absolute left-0 space-y-2 bg-[#081621] text-white border border-gray-300 rounded-lg z-10`}
+            className={`${isCategoriesOpen ? "block" : "hidden"
+              } w-[300px] absolute left-0 space-y-2 bg-[#081621] text-white border border-gray-300 rounded-lg z-10`}
             onMouseOver={() => setCategoriesOpen(true)}
             onMouseOut={() => setCategoriesOpen(false)}
           >
@@ -82,8 +80,8 @@ const Navbar = () => {
         <div className="space-x-4">
           <Link href="/pc-builder">
             <span className="relative px-6 py-3 font-bold text-white rounded-lg group">
-              <span className="absolute inset-0 w-full h-full transition duration-300 transform -translate-x-1 -translate-y-1 bg-purple-800 ease opacity-80 group-hover:translate-x-0 group-hover:translate-y-0"></span>
-              <span className="absolute inset-0 w-full h-full transition duration-300 transform translate-x-1 translate-y-1 bg-pink-800 ease opacity-80 group-hover:translate-x-0 group-hover:translate-y-0 mix-blend-screen"></span>
+              <span className="absolute inset-0 w-full h-full transition duration-300 transform -translate-x-1 -translate-y-1 bg-lime-800 ease opacity-80 group-hover:translate-x-0 group-hover:translate-y-0"></span>
+              <span className="absolute inset-0 w-full h-full transition duration-300 transform translate-x-1 translate-y-1 bg-green-800 ease opacity-80 group-hover:translate-x-0 group-hover:translate-y-0 mix-blend-screen"></span>
               <span className="relative">PC Builder</span>
             </span>
           </Link>

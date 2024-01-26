@@ -1,10 +1,262 @@
 [
-    {
-        "product" : {
-            "category_name": "Monitor",
-            "product_details": {
-                
-            }
+  {
+    "_id": "ahdfkajdhf3ae3jadlj",
+    "category_name": "CPU / Processor",
+    "product": {
+      "pr_img": "example.com",
+      "pr_name": "Valo CPU",
+      "pr_price": 300,
+      "pr_key_features": [
+        {
+            "label" : ""
         }
+      ],
+      "pr_description": "A short pr desc",
+      "pr_status": "In Stock",
+      "pr_ratings": {
+        "pr_ratings_average": 4,
+        "pr_ratings_individual": [4, 3, 4, 5]
+      },
+      "reviews": [
+        {
+          "user_id": "adkjfaldfuaouafadfj8",
+          "review": "Good product"
+        }
+      ]
     }
+  },
+  {
+    "_id": "ahdfkajdhf3ae3jadlj",
+    "category_name": "Monitor",
+    "product": {
+      "pr_img": "example.com",
+      "pr_name": "Valo Monitor2",
+      "pr_price": 300,
+      "pr_key_features": [
+        {
+            "label" : ""
+        }
+      ],
+      "pr_description": "A short pr desc",
+      "pr_status": "In Stock",
+      "pr_ratings": {
+        "pr_ratings_average": 4,
+        "pr_ratings_individual": [4, 3, 4, 5]
+      },
+      "reviews": [
+        {
+          "user_id": "adkjfaldfuaouafadfj8",
+          "review": "Good product"
+        }
+      ]
+    }
+  },
+  {
+    "_id": "ahdfkajdhf3aa3jadlj",
+    "category_name": "CPU / Processor",
+    "product": {
+      "pr_img": "example.com",
+      "pr_name": "Valo CPU",
+      "pr_price": 300,
+      "pr_key_features": [
+        {
+            "label" : ""
+        }
+      ],
+      "pr_description": "A short pr desc",
+      "pr_status": "In Stock",
+      "pr_ratings": {
+        "pr_ratings_average": 4,
+        "pr_ratings_individual": [4, 3, 4, 5]
+      },
+      "reviews": [
+        {
+          "user_id": "adkjfaldfuaouafadfj8",
+          "review": "Good product"
+        }
+      ]
+    }
+  },
+  {
+    "_id": "ahdfkajdhf3aeejedlj",
+    "category_name": "Motherboard",
+    "product": {
+      "pr_img": "example.com",
+      "pr_name": "Valo Motherboard",
+      "pr_price": 300,
+      "pr_key_features": [
+        {
+            "label" : ""
+        }
+      ],
+      "pr_description": "A short pr desc",
+      "pr_status": "In Stock",
+      "pr_ratings": {
+        "pr_ratings_average": 4,
+        "pr_ratings_individual": [4, 3, 4, 5]
+      },
+      "reviews": [
+        {
+          "user_id": "adkjfaldfuaouafadfj8",
+          "review": "Good product"
+        }
+      ]
+    }
+  },
+  {
+    "_id": "ahdfkajdhf3ae3j3dlj",
+    "category_name": "RAM",
+    "product": {
+      "pr_img": "example.com",
+      "pr_name": "Valo RAM",
+      "pr_price": 300,
+      "pr_key_features": [
+        {
+            "label" : ""
+        }
+      ],
+      "pr_description": "A short pr desc",
+      "pr_status": "In Stock",
+      "pr_ratings": {
+        "pr_ratings_average": 4,
+        "pr_ratings_individual": [4, 3, 4, 5]
+      },
+      "reviews": [
+        {
+          "user_id": "adkjfaldfuaouafadfj8",
+          "review": "Good product"
+        }
+      ]
+    }
+  },
+  {
+    "_id": "ahdfkajdhd3ae3jadlj",
+    "category_name": "Power Supply Unit",
+    "product": {
+      "pr_img": "example.com",
+      "pr_name": "Valo Power Supply unit",
+      "pr_price": 300,
+      "pr_key_features": [
+        {
+            "label" : ""
+        }
+      ],
+      "pr_description": "A short pr desc",
+      "pr_status": "In Stock",
+      "pr_ratings": {
+        "pr_ratings_average": 4,
+        "pr_ratings_individual": [4, 3, 4, 5]
+      },
+      "reviews": [
+        {
+          "user_id": "adkjfaldfuaouafadfj8",
+          "review": "Good product"
+        }
+      ]
+    }
+  },
+  {
+    "_id": "ahdakajdhf3ae3jadlj",
+    "category_name": "Storage Device",
+    "product": {
+      "pr_img": "example.com",
+      "pr_name": "Valo Storage Device",
+      "pr_price": 300,
+      "pr_key_features": [
+        {
+            "label" : ""
+        }
+      ],
+      "pr_description": "A short pr desc",
+      "pr_status": "In Stock",
+      "pr_ratings": {
+        "pr_ratings_average": 4,
+        "pr_ratings_individual": [4, 3, 4, 5]
+      },
+      "reviews": [
+        {
+          "user_id": "adkjfaldfuaouafadfj8",
+          "review": "Good product"
+        }
+      ]
+    }
+  },
+  {
+    "_id": "ahdfkajdhe3ae3jadlj",
+    "category_name": "Monitor",
+    "product": {
+      "pr_img": "example.com",
+      "pr_name": "Valo Monitor",
+      "pr_price": 300,
+      "pr_key_features": [
+        {
+            "label" : ""
+        }
+      ],
+      "pr_description": "A short pr desc",
+      "pr_status": "Out of Stock",
+      "pr_ratings": {
+        "pr_ratings_average": 4,
+        "pr_ratings_individual": [4, 3, 4, 5]
+      },
+      "reviews": [
+        {
+          "user_id": "adkjfaldfuaouafadfj8",
+          "review": "Good product"
+        }
+      ]
+    }
+  },
+  {
+    "_id": "ahdfkaedhf3ae3jadlj",
+    "category_name": "Others",
+    "product": {
+      "pr_img": "example.com",
+      "pr_name": "Valo GPU",
+      "pr_price": 300,
+      "pr_key_features": [
+        {
+            "label" : ""
+        }
+      ],
+      "pr_description": "A short pr desc",
+      "pr_status": "In Stock",
+      "pr_ratings": {
+        "pr_ratings_average": 4,
+        "pr_ratings_individual": [4, 3, 4, 5]
+      },
+      "reviews": [
+        {
+          "user_id": "adkjfaldfuaouafadfj8",
+          "review": "Good product"
+        }
+      ]
+    }
+  },
+  {
+    "_id": "ahdfkajahf3ae3jadlj",
+    "category_name": "Others",
+    "product": {
+      "pr_img": "example.com",
+      "pr_name": "Valo Mouse",
+      "pr_price": 300,
+      "pr_key_features": [
+        {
+            "label" : ""
+        }
+      ],
+      "pr_description": "A short pr desc",
+      "pr_status": "In Stock",
+      "pr_ratings": {
+        "pr_ratings_average": 4,
+        "pr_ratings_individual": [4, 3, 4, 5]
+      },
+      "reviews": [
+        {
+          "user_id": "adkjfaldfuaouafadfj8",
+          "review": "Good product"
+        }
+      ]
+    }
+  }
 ]
