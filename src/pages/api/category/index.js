@@ -8,8 +8,8 @@ export default async function handler(req, res) {
   // Categories collection
   const categoryCollection = db.collection("categories");
 
-  // Products collection
-  const productCollection = db.collection("categories")
+  // // Products collection
+  // const productCollection = db.collection("categories")
 
   switch (req.method) {
     case "POST":
