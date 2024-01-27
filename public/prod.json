@@ -1,0 +1,737 @@
+[
+  {
+    "name": "Processor 1",
+    "category": "CPU / Processor",
+    "image": "https://img.freepik.com/premium-photo/cpu-central-processing-unit-microchip-isolated-white-background-with-copy-space_260418-2335.jpg?size=626&ext=jpg",
+    "price": 299.99,
+    "status": "In Stock",
+    "average_ratings": 4,
+    "description": "Detailed Description of Processor 1",
+    "keyFeatures": {
+      "brand": "Brand 1",
+      "model": "Model 1",
+      "specification": "Specification 1",
+      "port": "USB 3.0, HDMI",
+      "type": "Type 1",
+      "resolution": "1920x1080",
+      "voltage": "110-220V"
+    },
+    "reviews": [
+      {
+        "userId": "1",
+        "rating": 4.5,
+        "comment": "Great processor! Fast and efficient."
+      },
+      {
+        "userId": "1",
+        "rating": 4,
+        "comment": "Good value for money."
+      },
+      {
+        "userId": "1",
+        "rating": 4.8,
+        "comment": "Excellent performance."
+      }
+    ]
+  },
+  {
+    "name": "Processor 2",
+    "category": "CPU / Processor",
+    "image": "https://img.freepik.com/free-photo/circuit-cyberspace-closeup-with-neon-lights_90220-1200.jpg?size=626&ext=jpg&ga=GA1.1.1771773219.1701596024&semt=sph",
+    "price": 349.99,
+    "status": "Out of Stock",
+    "average_ratings": 4,
+    "description": "Detailed Description of Processor 2",
+    "keyFeatures": {
+      "brand": "Brand 2",
+      "model": "Model 2",
+      "specification": "Specification 2",
+      "port": "USB 3.0, HDMI",
+      "type": "Type 2",
+      "resolution": "1920x1080",
+      "voltage": "110-220V"
+    },
+    "reviews": [
+      {
+        "userId": "1",
+        "rating": 4.2,
+        "comment": "Satisfactory performance."
+      },
+      {
+        "userId": "1",
+        "rating": 3.8,
+        "comment": "Not bad for the price."
+      },
+      {
+        "userId": "1",
+        "rating": 4.5,
+        "comment": "Would recommend to others."
+      }
+    ]
+  },
+  {
+    "name": "Processor 3",
+    "category": "CPU / Processor",
+    "image": "https://img.freepik.com/premium-photo/processor-motherboard_81048-13908.jpg?size=626&ext=jpg&ga=GA1.1.1771773219.1701596024&semt=sph",
+    "price": 399.99,
+    "status": "In Stock",
+    "average_ratings": 4,
+    "description": "Detailed Description of Processor 3",
+    "keyFeatures": {
+      "brand": "Brand 3",
+      "model": "Model 3",
+      "specification": "Specification 3",
+      "port": "USB 3.0, HDMI",
+      "type": "Type 3",
+      "resolution": "1920x1080",
+      "voltage": "110-220V"
+    },
+    "reviews": [
+      {
+        "userId": "1",
+        "rating": 4.8,
+        "comment": "Top-notch performance!"
+      },
+      {
+        "userId": "1",
+        "rating": 4.7,
+        "comment": "Worth the investment."
+      },
+      {
+        "userId": "1",
+        "rating": 4.5,
+        "comment": "Runs heavy applications smoothly."
+      }
+    ]
+  },
+  {
+    "name": "Motherboard 1",
+    "category": "Motherboard",
+    "image": "https://img.freepik.com/free-photo/circuit-board-electronic-computer-hardware-technology-motherboard-digital-chip_627829-10700.jpg?size=626&ext=jpg&ga=GA1.1.1771773219.1701596024&semt=sph",
+    "price": 159.99,
+    "status": "In Stock",
+    "average_ratings": 4,
+    "description": "Detailed Description of Motherboard 1",
+    "keyFeatures": {
+      "brand": "Brand 1",
+      "model": "Model 1",
+      "specification": "Specification 1",
+      "port": "USB 3.0, HDMI",
+      "type": "Type 1",
+      "resolution": "1920x1080",
+      "voltage": "110-220V"
+    },
+    "reviews": [
+      {
+        "userId": "1",
+        "rating": 4.3,
+        "comment": "Solid motherboard. Good features."
+      },
+      {
+        "userId": "1",
+        "rating": 4,
+        "comment": "Easy to install and reliable."
+      },
+      {
+        "userId": "1",
+        "rating": 4.2,
+        "comment": "Great value for the money."
+      }
+    ]
+  },
+  {
+    "name": "Motherboard 2",
+    "category": "Motherboard",
+    "image": "https://img.freepik.com/free-photo/delve-into-digital-age-s-intricacy-with-macro-shot-computer-s-core_157027-2512.jpg?size=626&ext=jpg&ga=GA1.1.1771773219.1701596024&semt=sph",
+    "price": 189.99,
+    "status": "Out of Stock",
+    "average_ratings": 4,
+    "description": "Detailed Description of Motherboard 2",
+    "keyFeatures": {
+      "brand": "Brand 2",
+      "model": "Model 2",
+      "specification": "Specification 2",
+      "port": "USB 3.0, HDMI",
+      "type": "Type 2",
+      "resolution": "1920x1080",
+      "voltage": "110-220V"
+    },
+    "reviews": [
+      {
+        "userId": "1",
+        "rating": 4.8,
+        "comment": "Excellent motherboard. Solid build."
+      },
+      {
+        "userId": "1",
+        "rating": 4.5,
+        "comment": "Good for gaming and multitasking."
+      },
+      {
+        "userId": "1",
+        "rating": 4.6,
+        "comment": "Reliable and stable performance."
+      }
+    ]
+  },
+  {
+    "name": "Motherboard 3",
+    "category": "Motherboard",
+    "image": "https://img.freepik.com/free-photo/technology-intricate-details-laid-bare-electronics-industry-generated-by-ai_188544-19703.jpg?size=626&ext=jpg&ga=GA1.1.1771773219.1701596024&semt=sph",
+    "price": 209.99,
+    "status": "In Stock",
+    "average_ratings": 4,
+    "description": "Detailed Description of Motherboard 3",
+    "keyFeatures": {
+      "brand": "Brand 3",
+      "model": "Model 3",
+      "specification": "Specification 3",
+      "port": "USB 3.0, HDMI",
+      "type": "Type 3",
+      "resolution": "1920x1080",
+      "voltage": "110-220V"
+    },
+    "reviews": [
+      {
+        "userId": "1",
+        "rating": 4.5,
+        "comment": "Great features and performance."
+      },
+      {
+        "userId": "1",
+        "rating": 4.3,
+        "comment": "Easy BIOS setup. Impressed."
+      },
+      {
+        "userId": "1",
+        "rating": 4.6,
+        "comment": "Highly recommended."
+      }
+    ]
+  },
+  {
+    "name": "RAM 1",
+    "category": "RAM",
+    "image": "https://img.freepik.com/free-photo/computerchip-technology-electronics-industry_93675-128223.jpg?size=626&ext=jpg&ga=GA1.1.1771773219.1701596024&semt=sph",
+    "price": 79.99,
+    "status": "In Stock",
+    "average_ratings": 4,
+    "description": "Detailed Description of RAM 1",
+    "keyFeatures": {
+      "brand": "Brand 1",
+      "model": "Model 1",
+      "specification": "Specification 1",
+      "port": "USB 3.0, HDMI",
+      "type": "Type 1",
+      "resolution": "1920x1080",
+      "voltage": "110-220V"
+    },
+    "reviews": [
+      {
+        "userId": "1",
+        "rating": 4.8,
+        "comment": "Fast and reliable RAM."
+      },
+      {
+        "userId": "1",
+        "rating": 4.5,
+        "comment": "Great for gaming. Smooth performance."
+      },
+      {
+        "userId": "1",
+        "rating": 4.3,
+        "comment": "Good value for the money."
+      }
+    ]
+  },
+  {
+    "name": "RAM 2",
+    "category": "RAM",
+    "image": "https://img.freepik.com/premium-photo/multi-colored-strips-random-access-memory_268192-2115.jpg?size=626&ext=jpg&ga=GA1.1.1771773219.1701596024&semt=ais",
+    "price": 99.99,
+    "status": "Out of Stock",
+    "average_ratings": 4,
+    "description": "Detailed Description of RAM 2",
+    "keyFeatures": {
+      "brand": "Brand 2",
+      "model": "Model 2",
+      "specification": "Specification 2",
+      "port": "USB 3.0, HDMI",
+      "type": "Type 2",
+      "resolution": "1920x1080",
+      "voltage": "110-220V"
+    },
+    "reviews": [
+      {
+        "userId": "1",
+        "rating": 4,
+        "comment": "Decent RAM."
+      },
+      {
+        "userId": "1",
+        "rating": 4.2,
+        "comment": "Reliable performance. No issues."
+      },
+      {
+        "userId": "1",
+        "rating": 3.8,
+        "comment": "Good RAM for everyday use."
+      }
+    ]
+  },
+  {
+    "name": "RAM 3",
+    "category": "RAM",
+    "image": "https://img.freepik.com/free-photo/technology-texture-background_23-2148105469.jpg?size=626&ext=jpg&ga=GA1.1.1771773219.1701596024&semt=ais",
+    "price": 129.99,
+    "status": "In Stock",
+    "average_ratings": 4,
+    "description": "Detailed Description of RAM 3",
+    "keyFeatures": {
+      "brand": "Brand 3",
+      "model": "Model 3",
+      "specification": "Specification 3",
+      "port": "USB 3.0, HDMI",
+      "type": "Type 3",
+      "resolution": "1920x1080",
+      "voltage": "110-220V"
+    },
+    "reviews": [
+      {
+        "userId": "1",
+        "rating": 4.8,
+        "comment": "High-performance RAM. Worth the price."
+      },
+      {
+        "userId": "1",
+        "rating": 4.7,
+        "comment": "Excellent choice for gaming setups."
+      },
+      {
+        "userId": "1",
+        "rating": 4.5,
+        "comment": "Fast and efficient. No complaints."
+      }
+    ]
+  },
+  {
+    "name": "Power Supply 1",
+    "category": "Power Supply Unit",
+    "image": "https://img.freepik.com/free-photo/miniature-engineer-worker-plug-lan-cable-computer_1252-838.jpg?size=626&ext=jpg&ga=GA1.1.1771773219.1701596024&semt=ais",
+    "price": 89.99,
+    "status": "In Stock",
+    "average_ratings": 4,
+    "description": "Detailed Description of Power Supply 1",
+    "keyFeatures": {
+      "brand": "Brand 1",
+      "model": "Model 1",
+      "specification": "Specification 1",
+      "port": "USB 3.0, HDMI",
+      "type": "Type 1",
+      "resolution": "1920x1080",
+      "voltage": "110-220V"
+    },
+    "reviews": [
+      {
+        "userId": "1",
+        "rating": 4.5,
+        "comment": "Reliable power supply. Good build quality."
+      },
+      {
+        "userId": "1",
+        "rating": 4,
+        "comment": "Value for money. No issues so far."
+      },
+      {
+        "userId": "1",
+        "rating": 4.3,
+        "comment": "Stable voltage output. Highly recommended."
+      }
+    ]
+  },
+  {
+    "name": "Power Supply 2",
+    "category": "Power Supply Unit",
+    "image": "https://img.freepik.com/free-photo/connectors-motherboard_1161-107.jpg?size=626&ext=jpg&ga=GA1.1.1771773219.1701596024&semt=ais",
+    "price": 109.99,
+    "status": "Out of Stock",
+    "average_ratings": 4,
+    "description": "Detailed Description of Power Supply 2",
+    "keyFeatures": {
+      "brand": "Brand 2",
+      "model": "Model 2",
+      "specification": "Specification 2",
+      "port": "USB 3.0, HDMI",
+      "type": "Type 2",
+      "resolution": "1920x1080",
+      "voltage": "110-220V"
+    },
+    "reviews": [
+      {
+        "userId": "1",
+        "rating": 4.7,
+        "comment": "High-quality power supply. Impressive performance."
+      },
+      {
+        "userId": "1",
+        "rating": 4.4,
+        "comment": "Quiet operation. Good for gaming setups."
+      },
+      {
+        "userId": "1",
+        "rating": 4.2,
+        "comment": "Efficient and durable."
+      }
+    ]
+  },
+  {
+    "name": "Power Supply 3",
+    "category": "Power Supply Unit",
+    "image": "https://img.freepik.com/premium-photo/computer-circuit-board-fragment-with-components-macro-close-up-computer-service-concept_669798-478.jpg?size=626&ext=jpg&ga=GA1.1.1771773219.1701596024&semt=ais",
+    "price": 129.99,
+    "status": "In Stock",
+    "average_ratings": 4,
+    "description": "Detailed Description of Power Supply 3",
+    "keyFeatures": {
+      "brand": "Brand 3",
+      "model": "Model 3",
+      "specification": "Specification 3",
+      "port": "USB 3.0, HDMI",
+      "type": "Type 3",
+      "resolution": "1920x1080",
+      "voltage": "110-220V"
+    },
+    "reviews": [
+      {
+        "userId": "1",
+        "rating": 4.8,
+        "comment": "Excellent power supply. Stable output."
+      },
+      {
+        "userId": "1",
+        "rating": 4.6,
+        "comment": "Satisfied with the performance."
+      },
+      {
+        "userId": "1",
+        "rating": 4.5,
+        "comment": "Reliable and efficient. No complaints."
+      }
+    ]
+  },
+  {
+    "name": "Storage Device 1",
+    "category": "Storage Device",
+    "image": "https://img.freepik.com/premium-vector/computer-ssd-storage-illustration_539007-247.jpg?size=626&ext=jpg&ga=GA1.1.1771773219.1701596024&semt=ais",
+    "price": 119.99,
+    "status": "In Stock",
+    "average_ratings": 4,
+    "description": "Detailed Description of Storage Device 1",
+    "keyFeatures": {
+      "brand": "Brand 1",
+      "model": "Model 1",
+      "specification": "Specification 1",
+      "port": "USB 3.0, HDMI",
+      "type": "Type 1",
+      "resolution": "1920x1080",
+      "voltage": "110-220V"
+    },
+    "reviews": [
+      {
+        "userId": "1",
+        "rating": 4.8,
+        "comment": "Fast and reliable storage. Good value for money."
+      },
+      {
+        "userId": "1",
+        "rating": 4.5,
+        "comment": "Works well for gaming. Quick data access."
+      },
+      {
+        "userId": "1",
+        "rating": 4.3,
+        "comment": "High storage capacity. Impressive speed."
+      }
+    ]
+  },
+  {
+    "name": "Storage Device 2",
+    "category": "Storage Device",
+    "image": "https://img.freepik.com/free-photo/close-up-hands-holding-hardware_23-2149319358.jpg?size=626&ext=jpg&ga=GA1.1.1771773219.1701596024&semt=ais",
+    "price": 139.99,
+    "status": "Out of Stock",
+    "average_ratings": 4,
+    "description": "Detailed Description of Storage Device 2",
+    "keyFeatures": {
+      "brand": "Brand 2",
+      "model": "Model 2",
+      "specification": "Specification 2",
+      "port": "USB 3.0, HDMI",
+      "type": "Type 2",
+      "resolution": "1920x1080",
+      "voltage": "110-220V"
+    },
+    "reviews": [
+      {
+        "userId": "1",
+        "rating": 4.6,
+        "comment": "Reliable storage. Good read/write speeds."
+      },
+      {
+        "userId": "1",
+        "rating": 4.2,
+        "comment": "Satisfied with the performance. Great for multimedia."
+      },
+      {
+        "userId": "1",
+        "rating": 4,
+        "comment": "High storage capacity. Smooth operation."
+      }
+    ]
+  },
+  {
+    "name": "Storage Device 3",
+    "category": "Storage Device",
+    "image": "https://img.freepik.com/free-vector/isometric-hard-drive-illustration_23-2149363096.jpg?size=626&ext=jpg&ga=GA1.1.1771773219.1701596024&semt=ais",
+    "price": 159.99,
+    "status": "In Stock",
+    "average_ratings": 4,
+    "description": "Detailed Description of Storage Device 3",
+    "keyFeatures": {
+      "brand": "Brand 3",
+      "model": "Model 3",
+      "specification": "Specification 3",
+      "port": "USB 3.0, HDMI",
+      "type": "Type 3",
+      "resolution": "1920x1080",
+      "voltage": "110-220V"
+    },
+    "reviews": [
+      {
+        "userId": "1",
+        "rating": 4.8,
+        "comment": "Excellent storage. Reliable and fast."
+      },
+      {
+        "userId": "1",
+        "rating": 4.5,
+        "comment": "Great for professional use. Solid build."
+      },
+      {
+        "userId": "1",
+        "rating": 4.6,
+        "comment": "Smooth operation. Good durability."
+      }
+    ]
+  },
+  {
+    "name": "Monitor 1",
+    "category": "Monitor",
+    "image": "https://img.freepik.com/free-photo/modern-monitor-elegant-table_23-2150706505.jpg?size=626&ext=jpg&ga=GA1.1.1771773219.1701596024&semt=sph",
+    "price": 249.99,
+    "status": "In Stock",
+    "average_ratings": 4,
+    "description": "Detailed Description of Monitor 1",
+    "keyFeatures": {
+      "brand": "Brand 1",
+      "model": "Model 1",
+      "specification": "Specification 1",
+      "port": "USB 3.0, HDMI",
+      "type": "Type 1",
+      "resolution": "1920x1080",
+      "voltage": "110.49"
+    },
+    "reviews": [
+      {
+        "userId": "1",
+        "rating": 4.5,
+        "comment": "Clear and vibrant display. Good for gaming."
+      },
+      {
+        "userId": "1",
+        "rating": 4,
+        "comment": "Sleek design. Worth the price."
+      },
+      {
+        "userId": "1",
+        "rating": 4.2,
+        "comment": "Impressive color accuracy. Recommended."
+      }
+    ]
+  },
+  {
+    "name": "Monitor 2",
+    "category": "Monitor",
+    "image": "https://img.freepik.com/free-photo/modern-monitor-elegant-table_23-2150706457.jpg?size=626&ext=jpg&ga=GA1.1.1771773219.1701596024&semt=sph",
+    "price": 299.99,
+    "status": "Out of Stock",
+    "average_ratings": 4,
+    "description": "Detailed Description of Monitor 2",
+    "keyFeatures": {
+      "brand": "Brand 2",
+      "model": "Model 2",
+      "specification": "Specification 2",
+      "port": "USB 3.0, HDMI",
+      "type": "Type 2",
+      "resolution": "1920x1080",
+      "voltage": "110-220V"
+    },
+    "reviews": [
+      {
+        "userId": "1",
+        "rating": 4.8,
+        "comment": "High-quality monitor. Excellent for graphics work."
+      },
+      {
+        "userId": "1",
+        "rating": 4.5,
+        "comment": "Smooth refresh rate. Great for gaming."
+      },
+      {
+        "userId": "1",
+        "rating": 4.6,
+        "comment": "Clear and sharp visuals. Satisfied customer."
+      }
+    ]
+  },
+  {
+    "name": "Monitor 3",
+    "category": "Monitor",
+    "image": "https://img.freepik.com/free-photo/view-computer-monitor-display_23-2150757407.jpg?size=626&ext=jpg&ga=GA1.1.1771773219.1701596024&semt=sph",
+    "price": 349.99,
+    "status": "In Stock",
+    "average_ratings": 4,
+    "description": "Detailed Description of Monitor 3",
+    "keyFeatures": {
+      "brand": "Brand 3",
+      "model": "Model 3",
+      "specification": "Specification 3",
+      "port": "USB 3.0, HDMI",
+      "type": "Type 3",
+      "resolution": "1920x1080",
+      "voltage": "110-220V"
+    },
+    "reviews": [
+      {
+        "userId": "1",
+        "rating": 4.8,
+        "comment": "Top-notch monitor. Excellent color reproduction."
+      },
+      {
+        "userId": "1",
+        "rating": 4.7,
+        "comment": "Fast response time. Perfect for gaming."
+      },
+      {
+        "userId": "1",
+        "rating": 4.5,
+        "comment": "Impressive build quality. Highly recommended."
+      }
+    ]
+  },
+  {
+    "name": "Keyboard 1",
+    "category": "Others",
+    "image": "https://img.freepik.com/premium-photo/gaming-mechanical-keyboard-light-led-with-mouse-monitor-black-table-3d-illustration-rendering-image_37129-3180.jpg?size=626&ext=jpg&ga=GA1.1.1771773219.1701596024&semt=sph",
+    "price": 49.99,
+    "status": "In Stock",
+    "average_ratings": 4,
+    "description": "Detailed Description of Keyboard 1",
+    "keyFeatures": {
+      "brand": "Brand 1",
+      "model": "Model 1",
+      "specification": "Specification 1",
+      "port": "USB 3.0, HDMI",
+      "type": "Type 1",
+      "resolution": "1920x1080",
+      "voltage": "110-220V"
+    },
+    "reviews": [
+      {
+        "userId": "1",
+        "rating": 4,
+        "comment": "Decent peripheral. Does the job."
+      },
+      {
+        "userId": "1",
+        "rating": 4.2,
+        "comment": "Affordable and functional. Satisfied user."
+      },
+      {
+        "userId": "1",
+        "rating": 3.8,
+        "comment": "Good value for the money. Recommended."
+      }
+    ]
+  },
+  {
+    "name": "Mouse 1",
+    "category": "Others",
+    "image": "https://img.freepik.com/free-photo/purple-computer-mouse_1260-11.jpg?size=626&ext=jpg&ga=GA1.1.1771773219.1701596024&semt=ais",
+    "price": 69.99,
+    "status": "Out of Stock",
+    "average_ratings": 4,
+    "description": "Detailed Description of Mouse 1",
+    "keyFeatures": {
+      "brand": "Brand 2",
+      "model": "Model 2",
+      "specification": "Specification 2",
+      "port": "USB 3.0, HDMI",
+      "type": "Type 2",
+      "resolution": "1920x1080",
+      "voltage": "110-220V"
+    },
+    "reviews": [
+      {
+        "userId": "1",
+        "rating": 4.5,
+        "comment": "Good quality peripheral. Worth the price."
+      },
+      {
+        "userId": "1",
+        "rating": 4,
+        "comment": "Functional and durable. Satisfied customer."
+      },
+      {
+        "userId": "1",
+        "rating": 4.2,
+        "comment": "Impressive performance. Highly recommended."
+      }
+    ]
+  },
+  {
+    "name": "Keyboard 2",
+    "category": "Others",
+    "image": "https://img.freepik.com/free-photo/cool-different-types-buttons_23-2150170582.jpg?size=626&ext=jpg&ga=GA1.1.1771773219.1701596024&semt=sph",
+    "price": 89.99,
+    "status": "In Stock",
+    "average_ratings": 4,
+    "description": "Detailed Description of Keyboard 2",
+    "keyFeatures": {
+      "brand": "Brand 3",
+      "model": "Model 3",
+      "specification": "Specification 3",
+      "port": "USB 3.0, HDMI",
+      "type": "Type 3",
+      "resolution": "1920x1080",
+      "voltage": "110-220V"
+    },
+    "reviews": [
+      {
+        "userId": "1",
+        "rating": 4.8,
+        "comment": "Top-quality peripheral. Great functionality."
+      },
+      {
+        "userId": "1",
+        "rating": 4.6,
+        "comment": "Sleek design. Works perfectly."
+      },
+      {
+        "userId": "1",
+        "rating": 4.5,
+        "comment": "Reliable and efficient. No complaints."
+      }
+    ]
+  }
+]

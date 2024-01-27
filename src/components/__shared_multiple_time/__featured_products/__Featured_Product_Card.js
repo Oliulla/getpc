@@ -2,37 +2,39 @@ import Link from 'next/link';
 import StarRating from '../ui/__star_ratings/__StarRatings';
 
 
-const FeaturedProductCard = ({ products }) => {
+const FeaturedProductCard = ({ product }) => {
+
+    const { image, name, category, price, status, average_ratings } = product ?? {};
 
     return (
 
-        <Link href="/">
+        <Link href="/category-details/[...category]" as={`/category-details/${encodeURIComponent(category)}`}>
             <div
                 className={`border border-gray-950 shadow-cyan-800 
                 hover:shadow-lg transition delay-75 w-auto cursor-pointer
                  max-w-sm rounded overflow-hidden shadow-lg
                 `
                 }>
-                <img className="w-full" src="https://img.freepik.com/premium-photo/cpu-central-processing-unit-microchip-isolated-white-background-with-copy-space_260418-2335.jpg?size=626&ext=jpg" alt="Sunset in the mountains" />
+                <img className="w-full" src={image} alt={name} />
                 <div className="px-6 py-4">
-                    <div className="font-bold text-xl mb-2">The Coldest Sunset</div>
+                    <p className="font-bold text-xl mb-2">{name}</p>
                     <div className="text-gray-300 text-base flex flex-col gap-y-2">
                         <p className='flex gap-x-2'>
                             <span className='font-semibold'>Category: </span>
-                            <span>CPU</span>
+                            <span>{category}</span>
                         </p>
                         <p className='flex gap-x-2'>
                             <span className='font-semibold'>Price: </span>
-                            <span>BTD 3000</span>
+                            <span>BTD {price}</span>
                         </p>
                         <p className='flex gap-x-2'>
                             <span className='font-semibold'>Status: </span>
-                            <span>In Stock</span>
+                            <span className='text-blue-400'>{status}</span>
                         </p>
                     </div>
                 </div>
                 <>
-                    <StarRating rating={4.5} />
+                    <StarRating rating={average_ratings} />
                 </>
             </div>
         </Link>

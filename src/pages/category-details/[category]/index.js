@@ -3,9 +3,11 @@ import { useRouter } from 'next/router';
 
 const CategoryDetailsPage = () => {
     const router = useRouter()
+    const {category} = router.query ?? {};
+
     return (
         <div>
-            This is product details page for : {router.query.id}
+            This is product details page for : {category}
         </div>
     );
 };

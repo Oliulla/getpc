@@ -16,7 +16,7 @@ const HomeComponent = ({ ssgData }) => {
                         {
                             products.map((product) => (
                                 <div key={product._id}>
-                                    <FeaturedProductCard products={products} />
+                                    <FeaturedProductCard product={product} />
                                 </div>
                             ))
                         }

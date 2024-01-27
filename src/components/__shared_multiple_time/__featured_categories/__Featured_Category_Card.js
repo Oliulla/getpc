@@ -1,15 +1,13 @@
 import Link from "next/link";
-import { useState } from "react";
 
 const FeaturedCategoryCard = () => {
-    const [id, setId] = useState(null);
 
     return (
 
         <div>
             <div className='Card'>
                 There should be 6 Featured Categories under the Featured Product section. The Categories are:
-                <Link href={`/category-details/${id}`} className='text-blue-600 underline'>
+                <Link href={`/category-details/${2}`} className='text-blue-600 underline'>
                     CPU / Processor
                     Motherboard
                     RAM
@@ -30,7 +28,6 @@ const FeaturedCategoryCard = () => {
                 Rating (Out of 5 Stars)
                 Each product retrieved after querying on this page will also be clickable and should take the user to the product detail page.
             </div>
-            <input type='text' value={id} onChange={(e) => setId(e.target.value)} />
         </div>
     );
 };
