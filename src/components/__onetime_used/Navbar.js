@@ -1,8 +1,14 @@
+import { useSession } from "next-auth/react";
 import Link from "next/link";
 import { useState } from "react";
+import { HiOutlineArrowLongLeft, HiOutlineArrowLongRight } from "react-icons/hi2";
+
 
 const Navbar = () => {
   const [isCategoriesOpen, setCategoriesOpen] = useState(false);
+  const { data: session } = useSession();
+
+  // console.log(session)
 
   //   const toggleCategories = () => {
   //     setCategoriesOpen(!isCategoriesOpen);
@@ -77,13 +83,35 @@ const Navbar = () => {
           </div>
         </div>
 
-        <div className="space-x-4">
+        <div className="space-x-4 flex items-center">
           <Link href="/pc-builder">
             <span className="relative px-6 py-3 font-bold text-white rounded-lg group">
               <span className="absolute inset-0 w-full h-full transition duration-300 transform -translate-x-1 -translate-y-1 bg-lime-800 ease opacity-80 group-hover:translate-x-0 group-hover:translate-y-0"></span>
               <span className="absolute inset-0 w-full h-full transition duration-300 transform translate-x-1 translate-y-1 bg-green-800 ease opacity-80 group-hover:translate-x-0 group-hover:translate-y-0 mix-blend-screen"></span>
               <span className="relative">PC Builder</span>
             </span>
+          </Link>
+          <Link href="/auth/sign-in">
+
+            <span>
+              {
+                session ?
+                  (<span
+                    className="px-2 py-3 rounded-sm flex bg-cyan-900 items-center text-white gap-x-2"
+                  >
+                    <span><HiOutlineArrowLongLeft /></span>
+                    <span>Sign-out</span>
+                  </span>)
+                  :
+                  (<span
+                    className="px-2 py-3 rounded-sm flex bg-cyan-900 items-center text-white gap-x-2"
+                  >
+                    <span><HiOutlineArrowLongRight /></span>
+                    <span>Sign-in</span>
+                  </span>)
+              }
+            </span>
+
           </Link>
         </div>
       </div>
@@ -92,3 +120,21 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
+{/* <Link href="/auth/sign-in">
+            <span className="relative px-6 py-3 font-bold bg-cyan-900 text-white rounded-lg group">
+
+              {
+                session ?
+                  (<>
+                    <span><MdOutlineArrowLeftAlt /></span>
+                    <span>Sign-out</span>
+                  </>)
+                  :
+                  (<>
+                    <span><MdOutlineArrowRightAlt /></span>
+                    <span>Sign-in</span>
+                  </>)
+              }
+            </span>
+          </Link> */}
