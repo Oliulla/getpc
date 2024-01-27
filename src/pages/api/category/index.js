@@ -23,11 +23,11 @@ export default async function handler(req, res) {
       })
       break;
     case "GET":
-      const allPC = await categoryCollection.find({}).toArray();
+      const categories = await categoryCollection.find({}).toArray();
       sendResponse({
         res,
         message: "Successfully retrived all category.",
-        data: allPC
+        data: categories
       })
       break;
   }
