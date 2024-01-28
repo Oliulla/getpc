@@ -12,10 +12,7 @@ export default async function handler(req, res) {
     switch (req.method) {
         case "GET":
             const { categoryName } = req.query
-            console.log(categoryName)
             const products = await productCollection.find({ category: categoryName }).toArray();
-            console.log(products)
-            // console.log(product)
             sendResponse({
                 res,
                 message: `Successfully retrived all products for ${categoryName}.`,

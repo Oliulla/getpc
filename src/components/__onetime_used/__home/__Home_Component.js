@@ -22,9 +22,9 @@ const HomeComponent = ({ ssgData }) => {
                         }
                     </div>
                 </div>
-                <div className='mx-auto'>
+                <div className=''>
                     <h1 className='text-3xl font-semibold text-center inline border-b-2 border-blue-400'>Featured Categories</h1>
-                    <div className='grid grid-cols-2 md:grid-cols-5 gap-2 mt-2'>
+                    <div className='grid grid-cols-2 md:grid-cols-6 gap-2 mt-2'>
                         {
                             categories.map((category) => (
                                 <div key={category._id}>
