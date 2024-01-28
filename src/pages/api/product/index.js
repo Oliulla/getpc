@@ -24,7 +24,7 @@ export default async function handler(req, res) {
             const products = await productCollection.find().limit(+limit).toArray();
             sendResponse({
                 res,
-                message: "Successfully retrived all category.",
+                message: "Successfully retrived all products.",
                 data: products,
                 total: products.length
             })
