@@ -9,7 +9,7 @@ const HomeComponent = ({ ssgData }) => {
 
     return (
         <div className='py-4'>
-            <div className='flex flex-col gap-y-10'>
+            <div className='flex flex-col gap-y-16'>
                 <div className='mx-auto'>
                     <h1 className='text-3xl font-semibold inline border-b-2 border-blue-400'>Featured Products</h1>
                     <div className='grid grid-cols-1 md:grid-cols-4 gap-2 mt-2'>
@@ -22,9 +22,17 @@ const HomeComponent = ({ ssgData }) => {
                         }
                     </div>
                 </div>
-                <div>
-                    <h1 className='text-3xl font-semibold inline border-b-2 border-blue-400'>Featured Categories</h1>
-                    <div className='grid grid-cols-4 gap-2 mt-2'><FeaturedCategoryCard categories={categories} /></div>
+                <div className='mx-auto'>
+                    <h1 className='text-3xl font-semibold text-center inline border-b-2 border-blue-400'>Featured Categories</h1>
+                    <div className='grid grid-cols-2 md:grid-cols-5 gap-2 mt-2'>
+                        {
+                            categories.map((category) => (
+                                <div key={category._id}>
+                                    <FeaturedCategoryCard category={category.name} />
+                                </div>
+                            ))
+                        }
+                    </div>
                 </div>
             </div>
         </div>

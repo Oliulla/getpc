@@ -1,20 +1,20 @@
 import RootLayout from '@/components/Layouts/RootLayout';
 import { useRouter } from 'next/router';
 
-const CategoryDetailsPage = () => {
+
+const SpecificCategoryProducts = () => {
     const router = useRouter()
     const {category} = router.query ?? {};
 
     return (
         <div>
-            This is product details page for : {category}
+            specific category products : {category}
         </div>
     );
 };
 
-export default CategoryDetailsPage;
+export default SpecificCategoryProducts;
 
-
-CategoryDetailsPage.getLayout = function getLayout(page) {
+SpecificCategoryProducts.getLayout = function getLayout(page) {
     return <RootLayout>{page}</RootLayout>;
 };

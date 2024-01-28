@@ -4,15 +4,15 @@ import StarRating from '../ui/__star_ratings/__StarRatings';
 
 const FeaturedProductCard = ({ product }) => {
 
-    const { image, name, category, price, status, average_ratings } = product ?? {};
+    const { _id, image, name, category, price, status, average_ratings } = product ?? {};
 
     return (
 
-        <Link href="/category-details/[...category]" as={`/category-details/${encodeURIComponent(category)}`}>
+        <Link href={`/product-details/${_id}`}>
             <div
                 className={`border border-gray-950 shadow-cyan-800 
                 hover:shadow-lg transition delay-75 w-auto cursor-pointer
-                 max-w-sm rounded overflow-hidden shadow-lg
+                 max-w-sm rounded overflow-hidden shadow-md
                 `
                 }>
                 <img className="w-full" src={image} alt={name} />
