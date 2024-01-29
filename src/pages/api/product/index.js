@@ -31,15 +31,8 @@ export default async function handler(req, res) {
             try {
                 const limit = req.query.limit;
 
-                let products = [];
+                let products = products = await productCollection.find().limit(+limit).toArray();
 
-                if(limit) {
-                    products = await productCollection.find().limit(+limit).toArray();
-
-                }
-                else {
-                    products = await await productCollection.find().toArray();
-                }
                 sendResponse({
                     res,
                     message: "Successfully retrieved all products.",

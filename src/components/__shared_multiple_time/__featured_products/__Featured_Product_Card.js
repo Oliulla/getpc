@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import StarRating from '../ui/__star_ratings/__StarRatings';
+import Image from 'next/image';
 
 
 const FeaturedProductCard = ({ product }) => {
@@ -15,7 +16,7 @@ const FeaturedProductCard = ({ product }) => {
                  max-w-sm rounded overflow-hidden shadow-md
                 `
                 }>
-                <img className="w-full" src={image} alt={name} />
+                <Image className="w-full" src={image} alt={name} style={{ width: "auto", height: "auto" }} />
                 <div className="px-6 py-4">
                     <p className="font-bold text-xl mb-2">{name}</p>
                     <div className="text-gray-300 text-base flex flex-col gap-y-2">
