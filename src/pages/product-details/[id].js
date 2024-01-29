@@ -1,6 +1,6 @@
 import RootLayout from '@/components/Layouts/RootLayout';
-import { baseURL } from '@/config/__baseURL';
-import { loadSSGData } from '@/lib/loadSSGData';
+// import { baseURL } from '@/config/__baseURL';
+// import { loadSSGData } from '@/lib/loadSSGData';
 
 
 const ProductDetailsPage = ({ product }) => {
@@ -24,7 +24,7 @@ ProductDetailsPage.getLayout = function getLayout(page) {
 export async function getStaticPaths() {
     try {
         // Fetch the possible values of id before building
-        const res = await fetch(`${baseURL}/api/products`);
+        const res = await fetch(`http://localhost:3000/api/products`);
 
         if (!res.ok) {
             console.error(`Error fetching product data. Status: ${res.status}`);
@@ -60,7 +60,9 @@ export async function getStaticPaths() {
 
 export async function getStaticProps({ params }) {
     const { id } = params;
-    const product = await loadSSGData(`product/${id}`);
+    // const product = await loadSSGData(`product/${id}`);
+    const res = await fetch(`http://localhost:3000/api/product/${id}`);
+    const {data: product} = await res.json();
 
     return { props: { product } };
 }

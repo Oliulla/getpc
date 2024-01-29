@@ -28,25 +28,17 @@ export default async function handler(req, res) {
             }
             break;
         case "GET":
-            try {
-                const limit = req.query.limit;
+            const limit = req.query.limit;
 
-                let products = products = await productCollection.find().limit(+limit).toArray();
+            const products = await productCollection.find().limit(+limit).toArray();
 
-                sendResponse({
-                    res,
-                    message: "Successfully retrieved all products.",
-                    data: products,
-                    total: products.length
-                });
-            } catch (error) {
-                console.error("Error fetching products:", error);
-                sendResponse({
-                    res,
-                    statusCode: 500,
-                    message: "Internal Server Error",
-                });
-            }
+            sendResponse({
+                res,
+                message: "Successfully retrieved all products.",
+                data: products,
+                total: products.length
+            });
+
             break;
         default:
             sendResponse({
