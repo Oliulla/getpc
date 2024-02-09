@@ -5,7 +5,6 @@ import RootLayout from '@/components/Layouts/RootLayout';
 
 const ProductDetailsPage = ({ product }) => {
 
-    console.log(product)
 
     return (
         <div>
