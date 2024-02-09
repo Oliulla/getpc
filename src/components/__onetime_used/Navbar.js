@@ -2,6 +2,7 @@ import { useSession } from "next-auth/react";
 import Link from "next/link";
 import { useState } from "react";
 import { HiOutlineArrowLongLeft, HiOutlineArrowLongRight } from "react-icons/hi2";
+import PcBuilderAnimatedButton from "../__shared_multiple_time/__buttons/__PcBuilderAnimatedButton";
 
 
 const Navbar = () => {
@@ -84,13 +85,7 @@ const Navbar = () => {
         </div>
 
         <div className="space-x-4 flex items-center">
-          <Link href="/pc-builder">
-            <span className="relative px-6 py-3 font-bold text-white rounded-lg group">
-              <span className="absolute inset-0 w-full h-full transition duration-300 transform -translate-x-1 -translate-y-1 bg-lime-800 ease opacity-80 group-hover:translate-x-0 group-hover:translate-y-0"></span>
-              <span className="absolute inset-0 w-full h-full transition duration-300 transform translate-x-1 translate-y-1 bg-green-800 ease opacity-80 group-hover:translate-x-0 group-hover:translate-y-0 mix-blend-screen"></span>
-              <span className="relative">PC Builder</span>
-            </span>
-          </Link>
+          <PcBuilderAnimatedButton />
           <Link href="/auth/sign-in">
 
             <span>

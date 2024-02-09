@@ -1,5 +1,5 @@
 import RootLayout from "@/components/Layouts/RootLayout";
-import HomeComponent from "@/components/__onetime_used/__home/__Home_Component";
+import HomeComponent from "@/components/__onetime_used/__home/HomeMainComponent";
 import { loadSSGData } from "@/lib/loadSSGData";
 import Head from "next/head";
 import React from "react";
