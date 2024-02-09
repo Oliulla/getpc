@@ -1,11 +1,10 @@
 import RootLayout from "@/components/Layouts/RootLayout";
 import HomeComponent from "@/components/__onetime_used/__home/__Home_Component";
-// import { loadSSGData } from "@/lib/loadSSGData";
+import { loadSSGData } from "@/lib/loadSSGData";
 import Head from "next/head";
 import React from "react";
 
 const HomePage = ({ products, categories }) => {
-  // console.log(products, categories)
 
   return (
     <>
@@ -13,7 +12,7 @@ const HomePage = ({ products, categories }) => {
         <title>GetPC | Home</title>
       </Head>
       <section>
-        {/* <HomeComponent ssgData={{ products, categories }} /> */}
+        <HomeComponent ssgData={{ products, categories }} />
       </section>
     </>
   )
@@ -25,16 +24,10 @@ HomePage.getLayout = function getLayout(page) {
   return <RootLayout>{page}</RootLayout>;
 };
 
-// export async function getStaticProps() {
-//   // Fetch products
-//   const res1 = await fetch("http://127.0.0.1:3000/api/product?limit=6");
-//   const { data: products } = await res1.json();
-//   // const { products } = productData ?? {};
+export async function getStaticProps() {
+  const products = await loadSSGData("product?limit=6")
 
-//   // Fetch categories
-//   const res2 = await fetch("http://127.0.0.1:3000/api/category");
-//   const { data: categories } = await res2.json();
-//   // const { categories } = catData ?? {};
+  const categories = await loadSSGData("category")
 
-//   return { props: { products, categories } };
-// }
+  return { props: { products, categories } };
+}
