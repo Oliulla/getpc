@@ -4,8 +4,8 @@ import PcBuilderAnimatedButton from "@/components/__shared_multiple_time/__butto
 
 const HeroBanner = () => {
   return (
-    <div className="grid grid-cols-12 gap-x-10 items-center">
-      <div className="col-span-8">
+    <div className="grid grid-cols-1 md:grid-cols-12 gap-x-10 items-center container">
+      <div className="md:col-span-8">
         <Image
           src={HeroBannerImg}
           alt="Hero Banner"
@@ -14,7 +14,7 @@ const HeroBanner = () => {
           className="w-full h-full"
         />
       </div>
-      <div className="w-full col-span-4">
+      <div className="w-full md:col-span-4 text-center md:text-start">
         <h1 className="text-4xl font-semibold">
           GetPc Provide You Best Quality Computer Accessories.
         </h1>
