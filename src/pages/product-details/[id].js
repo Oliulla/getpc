@@ -6,7 +6,6 @@ import { loadSSGData } from '@/lib/loadSSGData';
 
 const ProductDetailsPage = ({ product }) => {
 
-    console.log(product)
 
     return (
         <div>
@@ -24,21 +23,7 @@ ProductDetailsPage.getLayout = function getLayout(page) {
 
 export async function getStaticPaths() {
     try {
-        // Fetch the possible values of id before building
-        // const res = await fetch(`http://127.0.0.1:3000/api/products`);
-
-        // if (!res.ok) {
-        //     console.error(`Error fetching product data. Status: ${res.status}`);
-        //     return {
-        //         paths: [],
-        //         fallback: false,
-        //     };
-        // }
-
-        // const { data } = await res.json();
         const products = await loadSSGData("product")
-
-        // console.log(data);
 
         // Return an array of objects with params key
         const paths = products?.map((product) => ({
@@ -62,10 +47,6 @@ export async function getStaticPaths() {
 
 export async function getStaticProps({ params }) {
     const { id } = params;
-    // const product = await loadSSGData(`product/${id}`);
-    // const res = await fetch(`http://127.0.0.1:3000/api/product/${id}`);
-    // const {data: product} = await res.json();
-
     const product = await loadSSGData(`product/${id}`)
 
     return { props: { product } };
