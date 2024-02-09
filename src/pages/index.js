@@ -13,7 +13,7 @@ const HomePage = ({ products, categories }) => {
         <title>GetPC | Home</title>
       </Head>
       <section>
-        <HomeComponent ssgData={{ products, categories }} />
+        {/* <HomeComponent ssgData={{ products, categories }} /> */}
       </section>
     </>
   )
@@ -25,16 +25,16 @@ HomePage.getLayout = function getLayout(page) {
   return <RootLayout>{page}</RootLayout>;
 };
 
-export async function getStaticProps() {
-  // Fetch products
-  const res1 = await fetch("http://localhost:3000/api/product?limit=6");
-  const { data: products } = await res1.json();
-  // const { products } = productData ?? {};
+// export async function getStaticProps() {
+//   // Fetch products
+//   const res1 = await fetch("http://127.0.0.1:3000/api/product?limit=6");
+//   const { data: products } = await res1.json();
+//   // const { products } = productData ?? {};
 
-  // Fetch categories
-  const res2 = await fetch("http://localhost:3000/api/category");
-  const { data: categories } = await res2.json();
-  // const { categories } = catData ?? {};
+//   // Fetch categories
+//   const res2 = await fetch("http://127.0.0.1:3000/api/category");
+//   const { data: categories } = await res2.json();
+//   // const { categories } = catData ?? {};
 
-  return { props: { products, categories } };
-}
+//   return { props: { products, categories } };
+// }

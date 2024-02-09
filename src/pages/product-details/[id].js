@@ -20,48 +20,48 @@ ProductDetailsPage.getLayout = function getLayout(page) {
 };
 
 
-export async function getStaticPaths() {
-    try {
-        // Fetch the possible values of id before building
-        const res = await fetch(`http://localhost:3000/api/products`);
+// export async function getStaticPaths() {
+//     try {
+//         // Fetch the possible values of id before building
+//         const res = await fetch(`http://127.0.0.1:3000/api/products`);
 
-        if (!res.ok) {
-            console.error(`Error fetching product data. Status: ${res.status}`);
-            return {
-                paths: [],
-                fallback: false,
-            };
-        }
+//         if (!res.ok) {
+//             console.error(`Error fetching product data. Status: ${res.status}`);
+//             return {
+//                 paths: [],
+//                 fallback: false,
+//             };
+//         }
 
-        const { data } = await res.json();
+//         const { data } = await res.json();
 
-        // console.log(data);
+//         // console.log(data);
 
-        // Return an array of objects with params key
-        const paths = data?.map((product) => ({
-            params: { id: product._id },
-        }));
+//         // Return an array of objects with params key
+//         const paths = data?.map((product) => ({
+//             params: { id: product._id },
+//         }));
 
-        return {
-            paths,
-            fallback: false,
-        };
-    } catch (error) {
-        console.error("Error fetching product data:", error);
-        return {
-            paths: [],
-            fallback: false,
-        };
-    }
-}
+//         return {
+//             paths,
+//             fallback: false,
+//         };
+//     } catch (error) {
+//         console.error("Error fetching product data:", error);
+//         return {
+//             paths: [],
+//             fallback: false,
+//         };
+//     }
+// }
 
 
 
-export async function getStaticProps({ params }) {
-    const { id } = params;
-    // const product = await loadSSGData(`product/${id}`);
-    const res = await fetch(`http://localhost:3000/api/product/${id}`);
-    const {data: product} = await res.json();
+// export async function getStaticProps({ params }) {
+//     const { id } = params;
+//     // const product = await loadSSGData(`product/${id}`);
+//     const res = await fetch(`http://127.0.0.1:3000/api/product/${id}`);
+//     const {data: product} = await res.json();
 
-    return { props: { product } };
-}
+//     return { props: { product } };
+// }
